@@ -1,0 +1,21 @@
+{
+  "name": "gps-speedometer",
+  "version": "1.0.0",
+  "description": "GPS Speedometer web app for iPhone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "npx http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "gps",
+    "speedometer",
+    "mobile",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
